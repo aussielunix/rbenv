@@ -1,12 +1,7 @@
 rbenv
 ========
 
-Role for installing [rbenv](https://github.com/sstephenson/rbenv).
-
-Role ready status
-------------
-
-[![Build Status](https://travis-ci.org/zzet/ansible-rbenv-role.png?branch=master)](https://travis-ci.org/zzet/ansible-rbenv-role)
+Ansible role for installing [rbenv](https://github.com/sstephenson/rbenv) on Linux.
 
 Requirements
 ------------
@@ -125,4 +120,5 @@ MIT
 Author Information
 ------------------
 
+[Mick Pollard](https://aussielunix.io)
 [Andrew Kumanyaev](http://github.com/zzet)

@@ -10,10 +10,6 @@
   become: yes
   become_user: "{{ item }}"
 
-# reset_connection doesn't support conditionals.
-- name: Reset connection so rbenv profile is picked up
-  meta: reset_connection
-
 - name: create plugins directory for selected users
   file:
     state: directory
@@ -91,6 +87,10 @@
   become_user: "{{ item }}"
   when:
     - rbenv_set_vars | bool
+
+# reset_connection doesn't support conditionals.
+- name: Reset connection so rbenv profile is picked up
+  meta: reset_connection
 
 - name: check ruby versions installed for select users
   shell: $0 -lc "{{ rbenv_root }}/bin/rbenv versions --bare"

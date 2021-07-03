@@ -54,5 +54,5 @@ Testing is done using [GitHub Actions](https://github.com/features/actions) and 
 
 ## Author Information
 
-[Mick Pollard](https://aussielunix.io/) [@aussielunix](https://twitter.com/aussielunix)
+[Mick Pollard](https://aussielunix.io/) [@aussielunix](https://twitter.com/aussielunix)  
 [Andrew Kumanyaev](http://github.com/zzet)

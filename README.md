@@ -8,7 +8,7 @@
 
 Ansible role for installing [rbenv](https://github.com/sstephenson/rbenv) on Linux.
 
-# Example Playbook
+## Example Playbook
 
 ```yaml
 - hosts: web
